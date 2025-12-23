@@ -1,0 +1,7 @@
+{
+  "name": "lib",
+  "packageManager": "yarn@4.9.2",
+  "dependencies": {
+    "is-sorted": "^1.0.5"
+  }
+}
