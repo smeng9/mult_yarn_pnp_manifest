@@ -1,6 +1,6 @@
 
 
-let isGood = require("../lib/index.js")
+let isGood = require("lib/index.js")
 let shuf = require("lodash/shuffle")
 
 console.log(isGood("abc"))

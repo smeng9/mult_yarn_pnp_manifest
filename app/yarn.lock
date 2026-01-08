@@ -735,6 +735,7 @@ __metadata:
   dependencies:
     "@rspack/cli": "npm:^1.6.8"
     "@rspack/core": "npm:^1.6.8"
+    lib: ../lib
     lodash: "npm:^4.17.21"
   languageName: unknown
   linkType: soft
@@ -1702,6 +1703,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"is-sorted@npm:^1.0.5":
+  version: 1.0.5
+  resolution: "is-sorted@npm:1.0.5"
+  checksum: 10c0/e154c71cc4f1ef880fe4c918bd56a75511b6a8c160108b0d88d039c2ef3d01406c519bde86325288e7db38e4cd4ec1076685ca9dafa5fe04150d4b59755ee0f4
+  languageName: node
+  linkType: hard
+
 "is-wsl@npm:^3.1.0":
   version: 3.1.0
   resolution: "is-wsl@npm:3.1.0"
@@ -1739,6 +1747,15 @@ __metadata:
     picocolors: "npm:^1.1.1"
     shell-quote: "npm:^1.8.3"
   checksum: 10c0/fac5e7ad90bf185594cad4c831a52419eef50e667c4eddb5b0a58eb5f944e16d947636ee767b9896ffd46a51db34925edd3b854c48efb47f6d767ffd7d904e71
+  languageName: node
+  linkType: hard
+
+"lib@file:../lib::locator=app%40workspace%3A.":
+  version: 0.0.0
+  resolution: "lib@file:../lib#../lib::hash=af0ae5&locator=app%40workspace%3A."
+  dependencies:
+    is-sorted: "npm:^1.0.5"
+  checksum: 10c0/864949b7e86912097af3db6d613799595e06c858ab788a80e44071914b8c38509540503f0edbcb36f3eaaf1d6339beef3452c1f83a158949fd9036bd5073c5cf
   languageName: node
   linkType: hard
 
